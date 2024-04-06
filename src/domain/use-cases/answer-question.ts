@@ -1,16 +1,16 @@
+import { Answer } from "../entities/answer"
+
 interface AnswerQuestionUseCaseRequest {
   instructorId: string
   questionId: string
+  content: string
 }
 
 export class AnswerQuestionUseCase {
   
-  handler({ instructorId, questionId }: AnswerQuestionUseCaseRequest) {
+  handler({ instructorId, questionId, content }: AnswerQuestionUseCaseRequest) {
+    const answer = new Answer(content)
 
+    return answer
   }
 }
-
-new AnswerQuestionUseCase().handler({
-  instructorId: '1',
-  questionId: '2'
-})
