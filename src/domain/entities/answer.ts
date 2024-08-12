@@ -13,9 +13,9 @@ export class Answer {
   public questionId: string
 
   constructor(props: AnswerProps, id?: string) {
-    this.content = props.content;
-    this.authorId = props.authorId;
-    this.questionId = props.questionId;
+    this.content = props.content
+    this.authorId = props.authorId
+    this.questionId = props.questionId
     this.id = id ?? randomUUID()
   }
 }
