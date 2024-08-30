@@ -4,13 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.5",
-    "typescript": "^5.4.4"
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.4",
+    "vite-tsconfig-paths": "^5.0.1",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13"
   }
 }
