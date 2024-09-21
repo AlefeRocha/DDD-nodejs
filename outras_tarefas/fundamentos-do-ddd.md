@@ -17,4 +17,22 @@
 
 ## Quais as entidades de domínio?
 
--
+- Estoquista
+- Estoque
+- Produto
+- Venda
+- Ordem de Compra
+- Fornecedor
+
+## Quais casos de uso?
+
+- Cadastro-produto
+- Rastrear-produto
+- Quantidade-estoque
+- Disparo-alerta
+- Historico-vendas
+- Historico-estoque
+- Compra-produto
+- Gerenciar-ordem-compra
+- Gerenciar-fornecedores
+- Emitir-relatorios
